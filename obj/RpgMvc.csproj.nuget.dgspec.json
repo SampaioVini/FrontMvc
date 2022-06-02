@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\FrontMvc\\RpgMvc.csproj": {}
+    "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\RpgMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\FrontMvc\\RpgMvc.csproj": {
+    "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\RpgMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\FrontMvc\\RpgMvc.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\RpgMvc.csproj",
         "projectName": "RpgMvc",
-        "projectPath": "C:\\Users\\vinic\\FrontMvc\\RpgMvc.csproj",
+        "projectPath": "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\RpgMvc.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\FrontMvc\\obj\\",
+        "outputPath": "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config"

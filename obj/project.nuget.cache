@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "idP5Qq8QBs29qRMBcu7BmAOg3u/Ixt1KEemriBpcw31bh5Y6RoTJ2InJ8Jt8GLVwCBpddD9ROTFgwOwimlx4NQ==",
+  "dgSpecHash": "O12E4bYgeiryzlNRED7elVXofpjfoJ9vJsKqT7scxWBKLlYicnZdc8q7PXCAdEVM4awOtAAoQX2ucdmiqds6Yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinic\\FrontMvc\\RpgMvc.csproj",
+  "projectFilePath": "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\RpgMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.15\\microsoft.aspnetcore.jsonpatch.5.0.15.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.15\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.15.nupkg.sha512",
