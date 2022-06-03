@@ -16,7 +16,11 @@ namespace RpgMvc.Controllers
         public string uriBase = "http://localhost:5000/Personagens/";
         //xyz substituir pelo nome do site
     
-    
+    [HttpGet]
+            public ActionResult Create()
+            {
+                return View(); 
+            }
     [HttpGet]
 
     public async Task<ActionResult> IndexAsync()
@@ -81,11 +85,7 @@ namespace RpgMvc.Controllers
     
         }
    
-         [HttpGet]
-            public ActionResult Create()
-            {
-                return View(); 
-            }
+         
         [HttpGet]
             public async Task<ActionResult> DetailsAsync(int? id)
             {
