@@ -224,33 +224,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aluno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\vinic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vinicius\\RpgMvc\\FrontMvc\\RpgMvc.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\RpgMvc.csproj",
       "projectName": "RpgMvc",
-      "projectPath": "D:\\vinicius\\RpgMvc\\FrontMvc\\RpgMvc.csproj",
-      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "D:\\vinicius\\RpgMvc\\FrontMvc\\obj\\",
+      "projectPath": "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\RpgMvc.csproj",
+      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -292,7 +283,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

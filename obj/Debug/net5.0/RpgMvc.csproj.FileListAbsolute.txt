@@ -199,3 +199,4 @@ D:\vinicius\RpgMvc\FrontMvc\obj\Debug\net5.0\ref\RpgMvc.dll
 D:\vinicius\RpgMvc\FrontMvc\obj\Debug\net5.0\RpgMvc.pdb
 D:\vinicius\RpgMvc\FrontMvc\obj\Debug\net5.0\RpgMvc.genruntimeconfig.cache
 D:\vinicius\RpgMvc\FrontMvc\obj\Debug\net5.0\Razor\Views\Disputas\Index.cshtml.g.cs
+C:\Users\vinic\Downloads\trabalhos\FrontMvc\obj\Debug\net5.0\Razor\Views\Disputas\Index.cshtml.g.cs

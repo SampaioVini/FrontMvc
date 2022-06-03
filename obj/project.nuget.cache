@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "wWRLNzrFtVENbMZV+wCj3fnzOq+by4hgJmwwk9PFakO2QeJDSoy4yWfVbcS7Vw5X852qPrRQM+S65ieGbcx/AA==",
+  "dgSpecHash": "O12E4bYgeiryzlNRED7elVXofpjfoJ9vJsKqT7scxWBKLlYicnZdc8q7PXCAdEVM4awOtAAoQX2ucdmiqds6Yg==",
   "success": true,
-  "projectFilePath": "D:\\vinicius\\RpgMvc\\FrontMvc\\RpgMvc.csproj",
+  "projectFilePath": "C:\\Users\\vinic\\Downloads\\trabalhos\\FrontMvc\\RpgMvc.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.15\\microsoft.aspnetcore.jsonpatch.5.0.15.nupkg.sha512",
-    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.15\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.15.nupkg.sha512",
-    "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\Aluno\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
-    "C:\\Users\\Aluno\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.15\\microsoft.aspnetcore.jsonpatch.5.0.15.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.15\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.15.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }
