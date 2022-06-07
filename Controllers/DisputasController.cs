@@ -1,9 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RpgMvc.Models;
 
@@ -123,6 +124,38 @@ namespace RpgMvc.Controllers
                 TempData["MensagemErro"] = ex.Message;
                 return RedirectToAction("Index");
             }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> IndexHabilidadesAsync(DisputaViewModel disputa)
+        {
+            try
+            {
+                HttpClient httpClient = new HttpClient();
+                string uriComplementar = "Habilidade";
+        
+                var content = new StringContent(JsonConvert.SerializeObject(disputa));
+                content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                HttpResponseMessage response = await httpClient.PostAsync(uriBase + uriComplementar, content); 
+                string serialized = await response.Content.ReadAsStringAsync();
+
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    disputa = await Task.Run(() => 
+                    JsonConvert.DeserializeObject<DisputaViewModel>(serialized));
+                     TempData["Mensagem"] = disputa.Narracao;
+                    return RedirectToAction("Index", "Personagens");
+                }
+                else
+                    throw new System.Exception(serialized);
+
+            }
+            catch (System.Exception ex)
+            {
+                TempData["MensagemErro"] = ex.Message;
+                return RedirectToAction("Index");
+            }
+    
         }
 
     }

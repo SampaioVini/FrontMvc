@@ -1,4 +1,5 @@
-namespace FrontMvc.Models
+
+namespace RpgMvc.Models
 {
     public class HabilidadeViewModel
     {
