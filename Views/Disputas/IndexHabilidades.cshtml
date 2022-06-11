@@ -11,32 +11,36 @@
         @TempData["MensagemErro"]</div>
 }
 <h2> Ataque com Habilidade </h2>
-@using (Html.BeginForm())
+@using(Html.BeginForm())
 {
     @Html.AntiForgeryToken()
     <div class="form-horizontal">
         <hr />
         <div class="form-group">
-        @Html.DisplayName("Habilidade")
-        <div class="col-md-6">
-        @Html.DropDownListFor(model => model.HabilidadeId, new SelectList(@ViewBag.ListaHabilidades, "Id", "Nome"),
-                    "---Selecione---", new  { @class = "form-control"})
+            @Html.DisplayName("Atacante")
+            <div class="col-md-6">
+                @Html.DropDownListFor(model => model.AtacanteId, new SelectList(@ViewBag.ListaAtacantes, "Id", "Nome"),
+                "---Selecione---", new { @class = "form-control" })
             </div>
         </div>
         <div class="form-group">
-        @Html.DisplayName("Oponente")
-        <div class="col-md-6">
-        @Html.DropDownListFor(model => model.OponenteId, new SelectList(@ViewBag.ListaOponentes, "Id", "Nome"),
-                    "---Selecione---", new  { @class = "form-control"})
+            @Html.DisplayName("Habilidade")
+            <div class="col-md-6">
+                @Html.DropDownListFor(model => model.HabilidadeId, new SelectList(@ViewBag.ListaHabilidades, "Id", "Nome"),
+                "---Selecione---", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.DisplayName("Oponente")
+            <div class="col-md-6">
+                @Html.DropDownListFor(model => model.OponenteId, new SelectList(@ViewBag.ListaOponentes, "Id", "Nome"),
+                "---Selecione---", new { @class = "form-control" })
             </div>
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-6">
-                <input type="submit" value="Atacar com Arma!!!" class="btn btn-primary" />
-            </div>
+            <input type="submit" value="Atacar com Arma!!!" class="btn btn-primary" /></div>
         </div>
     </div>
 }
-<div>
-    @Html.ActionLink("Retornar", "Index", "Personagens")
-</div>
+<div>@Html.ActionLink("Retornar", "Index", "Personagens")</div>

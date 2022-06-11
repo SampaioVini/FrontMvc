@@ -77,7 +77,7 @@ namespace RpgMvc.Controllers
         }
         
         [HttpGet]
-        public async Task<ActionResult> IndexHabilidadeAsync()
+        public async Task<ActionResult> IndexHabilidadesAsync()
         {
             try
             {
